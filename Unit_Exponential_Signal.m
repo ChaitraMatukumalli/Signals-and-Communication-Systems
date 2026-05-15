@@ -1,0 +1,13 @@
+clc;
+close all;
+clear all;
+n=input('the length of i/p frquency');
+t=0:n;
+a=input('Enter a value:');
+y=exp(a*t);
+figure(4);
+subplot(2,2,4);
+stem(t,y);
+xlabel('x-axis');
+ylabel('y-axis');
+title('unit exponential');
