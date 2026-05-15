@@ -1,0 +1,10 @@
+clc;
+close all;
+clear all;
+n=input('Enter n value:');
+t=0:n;
+y=ones(1,n);
+figure(3);
+subplot(2,2,3);
+stem(t,t);
+title('Unit Ramp Signal');
